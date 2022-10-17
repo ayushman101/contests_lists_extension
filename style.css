@@ -1,0 +1,65 @@
+
+body{
+    width:780px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #211E44;
+    color:#f9f7f7;
+}
+
+/* .container{
+    width: 780px;
+    height: fit-content;
+} */
+
+#Contests_list{
+    background-color: #f03254;
+    width:98%;
+    /* margin-left: 5px; */
+
+    border: solid #f03254;
+    border-radius: 10px;
+
+
+}
+
+.mydiv{
+    background-color:  #f03254;
+    color: white;
+    font-size:medium;
+    width: 100%;
+
+    display:flex;
+    flex-direction: row;
+
+    /* text-decoration: none; */
+
+    margin-top: 20px;
+    /* margin: 10px; */
+}
+
+
+.name{
+    width:40%;
+    height:fit-content;
+    text-decoration: none;
+}
+
+
+.duration{
+    margin-left: 30px;
+    width: 10%;
+    height:fit-content;
+}
+
+
+.date{
+    width:40%;
+    height:fit-content;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}

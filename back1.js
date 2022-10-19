@@ -26,6 +26,7 @@ fetch('https://codeforces.com/api/contest.list?gym=false').then(function (res) {
       const curdate = new Date();
       const d = new Date((-arr[i].relativeTimeSeconds) * 1000 + curdate.getTime());
 
+      const num=arr[i].durationSeconds / 3600;
 
       const text=`
         <div class="name">
@@ -38,7 +39,7 @@ fetch('https://codeforces.com/api/contest.list?gym=false').then(function (res) {
           ${d.toString()}
         </div>
         <div class="duration">
-          ${arr[i].durationSeconds / 3600} hrs
+          ${num.toFixed(2)} hrs
         </div>`;
 
 
